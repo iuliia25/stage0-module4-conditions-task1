@@ -6,9 +6,9 @@ public class ConditionalFalsePrinter {
     public static void main(String[] args) {
         boolean a = (8 < 6);
         if (a) {
-            System.out.println("True");
+            System.out.println("true");
         } else {
-            System.out.println("False");
+            System.out.println("false");
         }
     }
 }
